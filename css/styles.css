@@ -1,0 +1,19 @@
+#wrapper {
+  margin: 0 auto;
+  width: 350px; }
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table; }
+
+.fila div {
+  float: left;
+  width: 80px;
+  height: 80px; }
+
+.impar div:nth-child(odd) {
+  background-color: black; }
+
+.par div:nth-child(even) {
+  background-color: black; }
